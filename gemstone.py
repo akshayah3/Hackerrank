@@ -7,8 +7,11 @@ Created on Fri May  9 13:32:58 2014
 
 t=input()
 assert t<=100 and t>=1
-a=set(raw_input())
-for _ in range(t-1):
+c=[]
+#a=set(raw_input())
+for i in range(0,t):
   b=set(raw_input())
-  a = a.intersection(b)
-print len(a)
+  c.append(b)
+
+a = set(b[0]).intersection(b[1:t])
+print a
