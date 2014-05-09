@@ -6,9 +6,7 @@ Created on Fri May  9 13:18:21 2014
 """
 
 in1=map(int,raw_input().split())
-N=in1[0]
-T=in1[1]
-a=map(int,raw_input().split())
-for i in range(0,T):
+
+for i in range(0,int1):
     index=map(int,raw_input().split())
-    print min(a[index[0]:index[1]+1])
+    
